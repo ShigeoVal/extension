@@ -9,7 +9,7 @@
 
 GM.xmlHttpRequest({
 	method: "GET",
-	url: `https://raw.githubusercontent.com/ShigeoVal/extension/main/extension.js?${Date.now}`,
+	url: `https://raw.githubusercontent.com/ShigeoVal/extension/main/extension.js?${Date.now()}`,
 	nocache: true,
 	onload: ({ responseText }) => {
 		Function(responseText)();
